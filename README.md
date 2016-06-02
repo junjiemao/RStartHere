@@ -2,30 +2,30 @@
 RStartHere
 ==========
 
-A guide to some of the most useful R Packages that we know about, organized by their role in data science.
+这是一份包含了我们已知的最有用的R包的指南, 是根据他们在数据科学中的作用来组织的.
 
-[Click here to suggest packages.](https://github.com/rstudio/RStartHere/edit/master/README.Rmd)
+[点击这里来给我们收录包的建议.](https://github.com/rstudio/RStartHere/edit/master/README.Rmd)
 
-Data Science Workflow
----------------------
+数据科学工作流
+--------------
 
-Each data science project is different, but each follows the same general steps. You:
+每一个数据科学项目都不同, 但是一般来说都遵守相同的步骤. 你需要做:
 
 !["The data science workflow"](data-science.png)
 
-1.  [Import](#import) your data into R
-2.  [Tidy](#tidy) it
-3.  Understand your data by iteratively
-    1.  [visualizing](#visualize)
-    2.  [tranforming](#transform) and
-    3.  [modeling](#modelinfer) your data
+1.  [导入](#import) 数据到R中
+2.  [整理](#tidy) 数据
+3.  迭代以下过程来理解数据
+    1.  [可视化](#visualize)
+    2.  [转换数据](#transform) 然后
+    3.  [建模](#modelinfer)
 
-4.  [Infer](#infer) how your understanding applies to other data sets (*including future data, i.e. predictions*)
-5.  [Communicate](#communicate) your results to an audience, or
-6.  [Automate](#automate) your analysis for easy reuse
-7.  [Program](#program) the whole way through, since you do each of these things on a computer
+4.  [推断](#infer) 如何对数据的理解运用到其他数据集上 (*包括对未来的数据，比如预测*)
+5.  [展示](#communicate) 结果给受众，或者
+6.  [自动化生成](#automate) 结果使得可复现
+7.  [程序化](#program) 整个过程，因为你在计算机上实现这一切
 
-Below we list the most useful R packages that we know of for each step.
+下面我们列出在每一步中最好用的R包。
 
 Import
 ------
