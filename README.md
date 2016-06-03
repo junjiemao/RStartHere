@@ -27,21 +27,21 @@ RStartHere
 
 下面我们列出在每一步中最好用的R包。
 
-Import
-------
+导入
+----
 
-These packages help you import data into R and save data.
+这些包帮助把数据导入到R中，并且保存下来。
 
--   [feather](https://blog.rstudio.org/2016/03/29/feather/) - a fast, lightweight file format used by both R and Python
--   [readr](https://blog.rstudio.org/2015/10/28/readr-0-2-0/) - reads tabular data
--   [readxl](https://blog.rstudio.org/2015/04/15/readxl-0-1-0/) - reads Microsoft Excel spreadsheets
--   [openxlsx](https://github.com/awalker89/openxlsx) - reads Microsoft Excel spreadsheets
--   [googlesheets](https://github.com/jennybc/googlesheets) - reads Google spreadsheets
--   [haven](https://blog.rstudio.org/2015/03/04/haven-0-1-0/) - reads SAS, SPSS, and Stata files
--   [httr](https://blog.rstudio.org/2016/02/02/httr-1-1-0/) - reads data from web APIs
--   [rvest](https://blog.rstudio.org/2014/11/24/rvest-easy-web-scraping-with-r/) - scrapes data from web pages
+-   [feather](https://blog.rstudio.org/2016/03/29/feather/) - 一个快速的轻量级的文件格式，可以同时在R和Python中使用
+-   [readr](https://blog.rstudio.org/2015/10/28/readr-0-2-0/) - 读取平板数据
+-   [readxl](https://blog.rstudio.org/2015/04/15/readxl-0-1-0/) - 读取Microsoft Excel电子表格
+-   [openxlsx](https://github.com/awalker89/openxlsx) - 读取Microsoft Excel电子表格
+-   [googlesheets](https://github.com/jennybc/googlesheets) - 读取Google电子表格
+-   [haven](https://blog.rstudio.org/2015/03/04/haven-0-1-0/) - 读取SAS, SPSS和Stata文件
+-   [httr](https://blog.rstudio.org/2016/02/02/httr-1-1-0/) - 从网络API中读取数据
+-   [rvest](https://blog.rstudio.org/2014/11/24/rvest-easy-web-scraping-with-r/) - 从网页中抓取数据
 -   [xml2](https://github.com/hadley/xml2) - reads HTML and XML data
--   [webreadr](https://cran.r-project.org/web/packages/webreadr/vignettes/Introduction.html) - reads common web log formats
+-   [webreadr](https://cran.r-project.org/web/packages/webreadr/vignettes/Introduction.html) - 阅读通用的web日志格式的文件
 -   [DBI](https://github.com/rstats-db/DBI) - a universal interface to database management systems (DBMS)
     -   [RMySQL](https://github.com/rstats-db/RMySQL) - MySQL driver for DBI
     -   [RPostgres](https://github.com/rstats-db/RPostgres) - Postgres driver for DBI
@@ -250,20 +250,20 @@ These packages contain data sets to use as training data or toy examples.
 -   [gapminder](https://github.com/jennybc/gapminder) - Excerpt from the Gapminder data
 -   [janeaustenr](https://github.com/juliasilge/janeaustenr) - Jane Austen's Complete Novels
 
-Criteria
+入选标准
 --------
 
-What makes an R Package useful? A useful R package should perform a useful task, and it should do it well. Here are some criteria that we used to make the list.
+是什么让一个R包能够称之为有用? 一个有用的R包应该能够完成一项有用的任务，并且做到极致。以下是收录这份列表时遵守的几点标准：
 
--   The code in the package runs fast, with few errors.
--   The code in the package has an intuitive syntax that is easy to remember.
--   The package plays well with other packages; you do not need to munge your data into new forms to use the package.
--   The package is widely used and recommended by its users.
--   The package has a development website, or series of vignettes, that make the package easy to learn.
--   The package is developed in the open (e.g. on Github or RForge).
+-   代码执行速度快，并且很少出错
+-   拥有容易记住的直观的代码
+-   和其他的包配合良好。不需要把数据更改成一种新的格式来使用其他的包
+-   被其他用户广泛地推荐
+-   包含有配套的网站，或者一系列的小文品，使得能很快上手使用
+-   包的开发是公开的(比如在Github或者RForge上).
 -   The package uses tests to ensure that it will be stable and bug free well into the future.
--   The package is stable and available from CRAN, or we are personally involved with the package and committed to its development.
+-   包是稳定的并且能在CRAN上找到,或者我们能参与到包的开发中，能够提交commit。
 
-For other useful choices, please check out our list of [popular packages that did not quite meet these criteria](runners-up.md).
+更多的有用的选择, 可以查看 [非常受欢迎但是不是很符合以上条件的列表](runners-up.md).
 
 You can learn more about packages in R with the [CRAN task views](https://cran.r-project.org/web/views/).
